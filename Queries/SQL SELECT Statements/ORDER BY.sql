@@ -1,0 +1,11 @@
+## Select all data from the “employees” table, ordering it by “hire date” in descending order.
+
+
+use employees;
+
+
+SELECT
+    *
+FROM
+    employees
+ORDER BY hire_date DESC;
